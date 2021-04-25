@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+body ,html {
+    font-family: 'Open Sans';
+    margin: 0;
+    height: 100%;
+    background-color: rgb(4, 37, 5);
+}
+
+.contenedor {
+    position: absolute;
+    top: 0%;
+    max-width: 89%;
+}
+
+.bg-imagen {
+    background-image: url(https://images5.alphacoders.com/600/600918.jpg);
+    filter: blur(8px) opacity(30%);
+    -webkit-filter: blur(8px) opacity(30%);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#autor {
+    margin-bottom: 5px;
+    background-color: rgb(7, 59, 16);
+    color: cornsilk;
+}
+
+#comentario {
+    margin-bottom: 5px;
+    background-color: rgb(7, 59, 16);
+    color: cornsilk;
+    max-width: 450px;
+    max-height: 120px;
+}
+
+#formulario {
+    border-radius: 3px;
+    text-align: left;
+    margin: auto;
+    margin-left: 30px;
+    padding: 10px;
+    border: rgb(17, 94, 49) solid 3px;
+    max-width: 700px;
+    background-color: rgb(9, 73, 20);
+    box-shadow: rgb(1, 22, 6) 5px 10px;
+}
+
+#listaComentario {
+    margin: auto;
+    padding: 30px;
+    color: cornsilk;
+}
+
+.list-group-item {
+    margin: 1%;
+    border: rgb(3, 41, 6) solid 2px;
+    max-width: 800px;
+    padding: 10px;
+    background-color: rgb(9, 73, 20);
+    box-shadow: rgb(1, 26, 6) 5px 10px;
+}
+
+.MagicScroll {
+    border-radius: 5px;
+    background-color: rgb(11, 68, 33);
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 30px;
+    border: rgb(5, 39, 12) solid 2px;
+    margin-bottom: 40px;
+  }
+  
+  .slide {
+    max-width: 400px;
+    max-height: 200px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }

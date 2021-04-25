@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+    <link rel="stylesheet" href="LPestilo.css">
+</head>
+<body>
+    <div class="bg-imagen"></div>
+    <div class="contenedor">
+            <h1 style="color: cornsilk; margin-left: 30px;">Dark Souls III</h1>
+        <a href="https://store.steampowered.com/app/374320/DARK_SOULS_III/?l=spanish" target="_blank">
+            <img src="https://cdn.akamai.steamstatic.com/steam/apps/374320/capsule_616x353.jpg?t=1608544497" style="margin-left: 30px;" width="370" height="200px">
+        </a>
+        <p style="color: cornsilk; margin-left: 30px;max-width: 80%;">
+            Dark Souls 3 es el final de la saga y presenta un mundo, el Reino de Lothric, al borde del Apocalipsis por culpa de 
+            "la maldición de los no muertos", y la razón por la que el mundo aún no se ha sumido en la oscuridad totalmente es el sacrificio que muchos 
+            héroes e incluso dioses hicieron al reavivar la llama original, la cual se encarga de mantener la "Era del fuego", dejando que esta consumiera sus respectivas almas y cuerpos.
+            El protagonista, el personaje al que se da vida en este título, es uno de los que llaman "Latentes"; estas personas son humanos que 
+            consiguieron llegar al horno de la Primera Llama, trataron de enlazarla, pero fueron consumidos y hechos ceniza sin conseguir su objetivo.</p>
+        <p style="color: cornsilk; margin-left: 30px;max-width: 80%;">
+            Estos humanos son despertados 
+            cuando los Señores de la Ceniza (aquellos que sí que fueron suficientemente poderosos como para enlazar la Primera Llama) son despertados pero no cumplen su deber:
+            quedarse en sus tronos (en el Santuario de Enlace del Fuego) hasta que se les vuelva a sacrificar para enlazar la Primera Llama. 
+            Es decir, cuando los Señores de la Ceniza no quieren volver a prolongar la Era de los Dioses (la era del fuego) y abandonan sus tronos, 
+            los Latentes deben ir a por ellos para matarlos y devolver sus cenizas a los Tronos, y el Latente que lo consiga, deberá, como última parte del plan, inmolarse él mismo, y convertirse de esta forma, 
+            en un Señor de la Ceniza.
+        </p>
+        <div class="MagicScroll">
+            <div class="slide">
+                <img src="http://shinobinews.com/wp-content/uploads/2017/03/Dark-Souls-3-The-Ringed-City-400x200.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="https://images.staticjw.com/com/3020/cc.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="https://3.bp.blogspot.com/-JmEHvrk-Tmc/Wrl4UkF7DiI/AAAAAAAAAEM/j8GONV724B4YOMC2_MCh2innYo3bRPU5gCLcBGAs/s1600/Dark%2Bsouls%2B3%2BScreenshot%2B2%2BFree%2BDownload.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="https://gamingsystemrequirements.com/wp-content/uploads/2019/09/ss_e838ba952b6bf4dc5bd9bd2baa8d106266252994.1920x1080-400x200.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="https://tribugamer.com/wp-content/uploads/2016/08/DarkSoulsIII-03.jpg" width="400" height="200"/>
+            </div>
+            <div class="slide">
+                <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/dark-souls-iii-1864665.jpg?itok=jSO0mKeJ" width="400" height="200"/>
+            </div>
+        </div>
+        <div class="container">
+            
+                <form id="formulario">
+                    <p style="color: cornsilk; margin: -5px; margin-left: auto;">Escribe lo que piensas sobre el juego</p><br>
+                    <input  id="autor" type="text" minlength="3" maxlength="40" placeholder="usuario" required><br>
+                    <textarea  id="comentario" rows="5" cols="50" placeholder="escribe un comentario" maxlength="200" required></textarea><br>
+                    <button id="boton" type="button" onclick="validar()">Comentar</button>
+                </form>
+
+                <ul id="listaComentario" class="list-group"></ul>
+        </div>
+    </div>
+    
+    <script src="LPcodigo.js"></script>
+</body>
+</html>
